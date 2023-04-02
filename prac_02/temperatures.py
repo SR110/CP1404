@@ -1,6 +1,9 @@
-MENU = """C - Convert Celsius to Fahrenheit
-    F - Convert Fahrenheit to Celsius
-    Q - Quit"""
+MENU = """
+C - Convert Celsius to Fahrenheit
+F - Convert Fahrenheit to Celsius
+Q - Quit
+"""
+
 
 def main():
     """Convert unit of temperature."""
