@@ -14,5 +14,5 @@ while i < num_of_items:
 
 if total_price > 100:
     amount = total_price * 0.9
-
-print(f"Total price for {num_of_items} items is ${amount:.2f}")
+    print(f"Discounted price for {num_of_items} items is ${amount:.2f}")
+print(f"Total price for {num_of_items} items is ${total_price:.2f}")
