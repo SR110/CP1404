@@ -1,5 +1,6 @@
 import random
 
+
 def main():
     """Input score."""
     score = float(input("Enter score: "))
