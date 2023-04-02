@@ -7,7 +7,7 @@ Q - Quit
 
 def main():
     """Convert unit of temperature."""
-
+    print(MENU)
     choice = input(">>> ").upper()
 
     while choice != "Q":
