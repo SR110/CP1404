@@ -6,7 +6,7 @@ MENU = """
 """
 score = int(input("score:"))
 
-def main():
+def main(score):
     """Display menu."""
     print(MENU)
     choice = input(">>>").upper()
@@ -25,7 +25,7 @@ def main():
     print("Thank you")
 
 
-def validate_score():
+def validate_score(score):
     """Check whether score is valid."""
     while score < 0 or score > 100:
         print("invalid score")
@@ -51,4 +51,4 @@ def stars(score):
     print("*" * score)
 
 
-main()
+main(score)
