@@ -4,7 +4,7 @@ MENU = """
 (S)how stars
 (Q)uit
 """
-
+score = int(input("score:"))
 
 def main():
     """Display menu."""
@@ -27,7 +27,6 @@ def main():
 
 def validate_score():
     """Check whether score is valid."""
-    score = int(input("score:"))
     while score < 0 or score > 100:
         print("invalid score")
         score = int(input("score:"))
