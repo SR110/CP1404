@@ -1,10 +1,11 @@
 MENU = """
-(G)et a valid score"
+(G)et a valid score
 (P)rint result
 (S)how stars
 (Q)uit
 """
 score = int(input("score:"))
+
 
 def main(score):
     """Display menu."""
@@ -12,7 +13,7 @@ def main(score):
     choice = input(">>>").upper()
     while choice != "Q":
         if choice == "G":
-            score = validate_score()
+            score = validate_score(score)
         elif choice == "P":
             grades = get_score(score)
             print(grades)
