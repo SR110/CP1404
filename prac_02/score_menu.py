@@ -15,10 +15,10 @@ def main(score):
         if choice == "G":
             score = validate_score(score)
         elif choice == "P":
-            grades = get_score(score)
+            grades = get_score(validate_score(score))
             print(grades)
         elif choice == "S":
-            stars(score)
+            stars(validate_score(score))
         else:
             print("Invalid Choice")
         print(MENU)
@@ -28,23 +28,22 @@ def main(score):
 
 def validate_score(score):
     """Check whether score is valid."""
-    while score < 0 or score > 100:
+    if score < 0 or score > 100:
         print("invalid score")
         score = int(input("score:"))
-    return score
+        return(score)
+    else:
+        return score
 
 
 def get_score(score):
     """Determine grade."""
-    if score < 0 or score > 100:
-        return "Invalid score"
-    else:
-        if score >= 90:
-            return "Excellent"
-        elif score >= 50:
-            return "Passable"
-        elif score < 50:
-            return "Bad"
+    if int(score) >= 90:
+        return "Excellent"
+    elif int(score) >= 50:
+        return "Passable"
+    elif int(score) < 50:
+        return "Bad"
 
 
 def stars(score):
