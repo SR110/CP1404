@@ -1,5 +1,5 @@
-"""Estimated time - 20 minutes
-Actual time - 30 minutes
+"""Estimated time - 10 minutes
+Actual time - 10 minutes
 """
 
 
