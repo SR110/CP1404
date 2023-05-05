@@ -4,7 +4,7 @@ Actual time - 10 minutes
 
 
 class ProgrammingLanguage:
-
+    """Record details of one Programming Language."""
     def __init__(self, language, typing, reflection, year):
         """Initialise the Programming Language."""
         self.language = language
