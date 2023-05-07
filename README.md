@@ -16,4 +16,5 @@ Lessons I have learned about "clean code":
    format and display the output of the code.
 
 Programming Patterns Link: https://github.com/CP1404/Starter/wiki/Programming-Patterns
+
 CP1404 Practicals Instructions Repository Link: https://github.com/CP1404/Practicals/blob/master/README.md
