@@ -5,6 +5,7 @@ from guitar import Guitar
 
 
 def main():
+    """Call classes with the arguments."""
     band = Band("Extreme")
     nuno = Musician("Nuno Bettencourt")
     nuno.add(Guitar("Washburn N4", 1990, 2499.95))
